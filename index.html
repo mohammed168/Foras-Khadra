@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرص خضراء</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>فرص خضراء</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#opurtunity">الفرص</a></li>
+                <li><a href="#map-section">المنظمات</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="opurtunity">
+        <div class="content">
+            <h2>استكشف الفرص</h2>
+            <input onkeyup="searchData(this.value)" type="search" id="search" placeholder="ابحث عن فرصتك">
+        </div>
+        <div class="select">
+            <div class="country">
+                <select id="countrySellect"></select>
+            </div>
+            <div class="lg">
+                <select id="lgSellect">
+                    <option value="local">محلية</option>
+                    <option value="global">عالمية</option>
+                </select>
+            </div>
+            <div class="chose">
+                <select id="choses">
+                    <option value="scolarship">منح</option>
+                    <option value="training">تدريب</option>
+                    <option value="tatawoa">تطوع</option>
+                </select>
+            </div>
+        </div>
+        <div class="cards" id="cards"></div>
+    </section>
+
+    <section id="map-section">
+        <h2>المنظمات</h2>
+        <div id="map" style="height: 400px;"></div>
+    </section>
+
+    <section id="services">
+        <h2>الخدمات</h2>
+        <div class="service-container">
+            <div class="service-card">
+                <h3>جلسات الإرشاد</h3>
+                <form id="counseling-form">
+                    <input type="text" placeholder="الاسم" required>
+                    <input type="email" placeholder="البريد الإلكتروني" required>
+                    <button type="submit">حجز</button>
+                </form>
+            </div>
+            <div class="service-card">
+                <h3>الدورات التدريبية</h3>
+                <div id="courses-list">
+                    <p>دورة تطوير الويب</p>
+                    <p>دورة تصميم UX/UI</p>
+                    <p>دورة إدارة المشاريع</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

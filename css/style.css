@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #023b02;
+    direction: rtl;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background: #023b02;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 48px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#opurtunity {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #023b02;
+    color: #fff;
+}
+
+#opurtunity .content h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#opurtunity .content input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background: #338c33;
+    color: #fff;
+}
+
+#opurtunity .select {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+#opurtunity .select select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #338c33;
+    color: #fff;
+    font-weight: bold;
+    min-width: 150px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.cards .card {
+    background: #338c33;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.cards .card.local {
+    border-left: 4px solid #ff6f00;
+}
+
+.cards .card.global {
+    border-left: 4px solid #fff;
+}
+
+.cards .card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cards .card b {
+    color: orange;
+    font-size: 14px;
+}
+
+.cards .card p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.cards .card a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+#map-section {
+    width: 100%;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+#map-section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #023b02;
+}
+#services {
+    width: 100%;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #023b02;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#services h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background: #338c33;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-card form input , .service-card form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.service-card form button {
+    background: #ff6f00;
+    color: #fff;
+    cursor: pointer;
+}
+
+.service-card #courses-list p {
+    font-size: 16px;
+    margin: 10px 0;
+}

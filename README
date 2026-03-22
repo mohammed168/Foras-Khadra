@@ -1,0 +1,47 @@
+# Foras-Khadra Platform
+
+## Project Overview
+Foras-Khadra is a web-based platform designed to help users explore opportunities such as scholarships, training programs, and volunteering activities across different countries.
+
+## Project Description
+The platform allows users to filter and search for opportunities based on country, type (scholarship, training, volunteering), and scope (local or global). It also includes an interactive map that displays organizations offering opportunities.
+
+The project simulates a real-world system that connects users with educational and professional opportunities.
+
+## Features
+- Filter opportunities by:
+  - Country (Palestine, Egypt, Jordan, Morocco, Tunisia)
+  - Type (Scholarships, Training, Volunteering)
+  - Scope (Local / Global)
+- Real-time search functionality
+- Dynamic content rendering using JavaScript
+- Interactive map using Leaflet.js
+- Display organizations with location and contact information
+- Counseling session booking form
+- Clean and responsive user interface
+
+## Technologies Used
+- JavaScript
+- HTML
+- CSS
+- Leaflet.js
+- OpenStreetMap API
+
+## How It Works
+- Opportunities are stored in a structured JavaScript object
+- Users select filters to display relevant opportunities
+- The system dynamically updates the interface based on user input
+- Search functionality allows users to find specific opportunities
+- The map displays organizations with detailed information
+
+## Purpose of the Project
+This project was developed to practice front-end development and build a real-world application that handles structured data and user interaction.
+
+It demonstrates skills in:
+- Data handling
+- UI design
+- Search and filtering systems
+- Interactive web development
+
+## Author
+Mohammed H. A. Alnakhal
